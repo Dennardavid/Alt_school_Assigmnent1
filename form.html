@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./images/altschool.png" alt="alt School logo" width="100px" />
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./form.html">Sign up to Altschool</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Application Form</h1>
+      <p>Fill in your details</p>
+      <form action="#">
+        <label for="firstname">First Name</label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Enter first name"
+          required
+        />
+
+        <label for="email">Last Name</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Enter last name"
+          required
+        />
+        <br />
+        <hr />
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender" required>
+          <option disabled selected value="">Select gender</option>
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="others">others</option>
+        </select>
+
+        <label for="date">Date of Birth</label>
+        <input type="date" name="dateofbirth" id="dateofbirth" required /><br />
+
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          name="dateofbirth"
+          id="dateofbirth"
+          placeholder="Enter email address"
+          required
+        />
+
+        <label for="education">Education Level</label>
+        <select name="education_level" id="education_level" required>
+          <option disabled selected value="">Select level of education</option>
+          <option value="Bsc" title="Bsc">Bsc</option>
+          <option value="Msc" title="Msc">Msc</option>
+          <option value="Doctorate (PhD)" title="Doctorate (PhD)">
+            Doctorate (PhD)
+          </option>
+          <option
+            value="High school / Secondary School"
+            title="High school / Secondary School"
+          >
+            High school / Secondary School
+          </option>
+          <option value="Under Graduate" title="Under Graduate">
+            Under Graduate
+          </option>
+          <option value="Junior / Middle School" title="Junior / Middle School">
+            Junior / Middle School
+          </option>
+          <option value="Post Graduate" title="Post Graduate">
+            Post Graduate
+          </option>
+        </select>
+
+        <br />
+        <hr />
+
+        <label for="country">Country</label>
+        <select name="country" id="country" required>
+          <option value="" disabled selected="selected">
+            Please select a country of residence
+          </option>
+          <option label="Afghanistan" value="string:country-AFG">
+            Afghanistan
+          </option>
+          <option label="Aland" value="string:country-ALA">Aland</option>
+          <option label="Albania" value="string:country-ALB">Albania</option>
+          <option label="Algeria" value="string:country-DZA">Algeria</option>
+          <option label="American Samoa" value="string:country-ASM">
+            American Samoa
+          </option>
+          <option label="Andorra" value="string:country-AND">Andorra</option>
+          <option label="Angola" value="string:country-AGO">Angola</option>
+          <option label="Anguilla" value="string:country-AIA">Anguilla</option>
+          <option label="Antarctica" value="string:country-ATA">
+            Antarctica
+          </option>
+          <option label="Antigua And Barbuda" value="string:country-ATG">
+            Antigua And Barbuda
+          </option>
+          <option label="Argentina" value="string:country-ARG">
+            Argentina
+          </option>
+          <option label="Armenia" value="string:country-ARM">Armenia</option>
+          <option label="Aruba" value="string:country-ABW">Aruba</option>
+          <option label="Australia" value="string:country-AUS">
+            Australia
+          </option>
+          <option label="Austria" value="string:country-AUT">Austria</option>
+          <option label="Azerbaijan" value="string:country-AZE">
+            Azerbaijan
+          </option>
+          <option label="Bahamas" value="string:country-BHS">Bahamas</option>
+          <option label="Bahrain" value="string:country-BHR">Bahrain</option>
+          <option label="Bangladesh" value="string:country-BGD">
+            Bangladesh
+          </option>
+          <option label="Barbados" value="string:country-BRB">Barbados</option>
+          <option label="Belarus" value="string:country-BLR">Belarus</option>
+          <option label="Belgium" value="string:country-BEL">Belgium</option>
+          <option label="Belize" value="string:country-BLZ">Belize</option>
+          <option label="Benin" value="string:country-BEN">Benin</option>
+          <option label="Bermuda" value="string:country-BMU">Bermuda</option>
+          <option label="Bhutan" value="string:country-BTN">Bhutan</option>
+          <option label="Bolivia" value="string:country-BOL">Bolivia</option>
+          <option label="Bosnia And Herzegovina" value="string:country-BIH">
+            Bosnia And Herzegovina
+          </option>
+          <option label="Botswana" value="string:country-BWA">Botswana</option>
+          <option label="Bouvet Island" value="string:country-BVT">
+            Bouvet Island
+          </option>
+          <option label="Brazil" value="string:country-BRA">Brazil</option>
+          <option
+            label="British Indian Ocean Territory"
+            value="string:country-IOT"
+          >
+            British Indian Ocean Territory
+          </option>
+          <option label="Brunei Darussalam" value="string:country-BRN">
+            Brunei Darussalam
+          </option>
+          <option label="Bulgaria" value="string:country-BGR">Bulgaria</option>
+          <option label="Burkina Faso" value="string:country-BFA">
+            Burkina Faso
+          </option>
+          <option label="Burundi" value="string:country-BDI">Burundi</option>
+          <option label="Cambodia" value="string:country-KH">Cambodia</option>
+          <option label="Cameroon" value="string:country-CMR">Cameroon</option>
+          <option label="Canada" value="string:country-CAN">Canada</option>
+          <option label="Canary Islands" value="string:country-IC">
+            Canary Islands
+          </option>
+          <option label="Cape Verde" value="string:country-CPV">
+            Cape Verde
+          </option>
+          <option label="Cayman Islands" value="string:country-CYM">
+            Cayman Islands
+          </option>
+          <option label="Central African Republic" value="string:country-CAF">
+            Central African Republic
+          </option>
+          <option label="Chad" value="string:country-TCD">Chad</option>
+          <option label="Chile" value="string:country-CHL">Chile</option>
+          <option label="China" value="string:country-CHN">China</option>
+          <option label="Christmas Island" value="string:country-CXR">
+            Christmas Island
+          </option>
+          <option label="Cocos -Keeling- Islands" value="string:country-CCK">
+            Cocos -Keeling- Islands
+          </option>
+          <option label="Colombia" value="string:country-COL">Colombia</option>
+          <option label="Comorian" value="string:country-COM">Comorian</option>
+          <option label="Congo" value="string:country-COG">Congo</option>
+          <option
+            label="Congo (Democratic Republic)"
+            value="string:country-COD"
+          >
+            Congo (Democratic Republic)
+          </option>
+          <option label="Cook Islands" value="string:country-COK">
+            Cook Islands
+          </option>
+          <option label="Costa Rica" value="string:country-CRI">
+            Costa Rica
+          </option>
+          <option label="Cote D'Ivoire" value="string:country-CIV">
+            Cote D'Ivoire
+          </option>
+          <option label="Croatia" value="string:country-HRV">Croatia</option>
+          <option label="Cuba" value="string:country-CUB">Cuba</option>
+          <option label="Cyprus" value="string:country-CYP">Cyprus</option>
+          <option label="Czech Republic" value="string:country-CZE">
+            Czech Republic
+          </option>
+          <option label="Denmark" value="string:country-DNK">Denmark</option>
+          <option label="Djibouti" value="string:country-DJI">Djibouti</option>
+          <option label="Dominica" value="string:country-DMA">Dominica</option>
+          <option label="Dominican Republic" value="string:country-DOM">
+            Dominican Republic
+          </option>
+          <option label="East Timor" value="string:country-TMP">
+            East Timor
+          </option>
+          <option label="Ecuador" value="string:country-ECU">Ecuador</option>
+          <option label="Egypt" value="string:country-EGY">Egypt</option>
+          <option label="El Salvador" value="string:country-SLV">
+            El Salvador
+          </option>
+          <option label="Equatorial Guinea" value="string:country-GNQ">
+            Equatorial Guinea
+          </option>
+          <option label="Eritrea" value="string:country-ERI">Eritrea</option>
+          <option label="Estonia" value="string:country-EST">Estonia</option>
+          <option label="Ethiopia" value="string:country-ETH">Ethiopia</option>
+          <option label="Falkland Islands Malvinas" value="string:country-FLK">
+            Falkland Islands Malvinas
+          </option>
+          <option label="Faroe Islands" value="string:country-FRO">
+            Faroe Islands
+          </option>
+          <option label="Fiji" value="string:country-FJI">Fiji</option>
+          <option label="Finland" value="string:country-FIN">Finland</option>
+          <option label="France" value="string:country-FRA">France</option>
+          <option label="French Guiana" value="string:country-GUF">
+            French Guiana
+          </option>
+          <option label="French Polynesia" value="string:country-PYF">
+            French Polynesia
+          </option>
+          <option
+            label="French Southern Territories"
+            value="string:country-ATF"
+          >
+            French Southern Territories
+          </option>
+          <option label="Gabon" value="string:country-GAB">Gabon</option>
+          <option label="Gambia" value="string:country-GMB">Gambia</option>
+          <option label="Germany" value="string:country-DEU">Germany</option>
+          <option label="Ghana" value="string:country-GHA">Ghana</option>
+          <option label="Gibraltar" value="string:country-GIB">
+            Gibraltar
+          </option>
+          <option label="Greece" value="string:country-GRC">Greece</option>
+          <option label="Greenland" value="string:country-GRL">
+            Greenland
+          </option>
+          <option label="Grenada" value="string:country-GRD">Grenada</option>
+          <option label="Guadeloupe" value="string:country-GLP">
+            Guadeloupe
+          </option>
+          <option label="Guam" value="string:country-GUM">Guam</option>
+          <option label="Guatemala" value="string:country-GTM">
+            Guatemala
+          </option>
+          <option label="Guernsey" value="string:country-GG">Guernsey</option>
+          <option label="Guinea" value="string:country-GIN">Guinea</option>
+          <option label="Guinea-Bissau" value="string:country-GNB">
+            Guinea-Bissau
+          </option>
+          <option label="Guyana" value="string:country-GUY">Guyana</option>
+          <option label="Haiti" value="string:country-HTI">Haiti</option>
+          <option
+            label="Heard And Mc Donald Islands"
+            value="string:country-HMD"
+          >
+            Heard And Mc Donald Islands
+          </option>
+          <option label="Honduras" value="string:country-HND">Honduras</option>
+          <option label="Hong Kong" value="string:country-HKG">
+            Hong Kong
+          </option>
+          <option label="Hungary" value="string:country-HUN">Hungary</option>
+          <option label="Iceland" value="string:country-ISL">Iceland</option>
+          <option label="Independent State of Samoa" value="string:country-WS">
+            Independent State of Samoa
+          </option>
+          <option label="India" value="string:country-IND">India</option>
+          <option label="Indonesia" value="string:country-IDN">
+            Indonesia
+          </option>
+          <option label="Iran (Islamic Republic Of)" value="string:country-IRN">
+            Iran (Islamic Republic Of)
+          </option>
+          <option label="Iraq" value="string:country-IRQ">Iraq</option>
+          <option label="Ireland" value="string:country-IRL">Ireland</option>
+          <option label="Isle of Man" value="string:country-IM">
+            Isle of Man
+          </option>
+          <option label="Israel" value="string:country-ISR">Israel</option>
+          <option label="Italy" value="string:country-ITA">Italy</option>
+          <option label="Jamaica" value="string:country-JAM">Jamaica</option>
+          <option label="Japan" value="string:country-JPN">Japan</option>
+          <option label="Jersey" value="string:country-JE">Jersey</option>
+          <option label="Jordan" value="string:country-JOR">Jordan</option>
+          <option label="Kazakhstan" value="string:country-KAZ">
+            Kazakhstan
+          </option>
+          <option label="Kenya" value="string:country-KEN">Kenya</option>
+          <option label="Kiribati" value="string:country-KIR">Kiribati</option>
+          <option label="Korea - Republic Of" value="string:country-KOR">
+            Korea - Republic Of
+          </option>
+          <option
+            label="Korea-Democratic People's Rep"
+            value="string:country-KP"
+          >
+            Korea-Democratic People's Rep
+          </option>
+          <option label="Kuwait" value="string:country-KWT">Kuwait</option>
+          <option label="Kyrgyzstan" value="string:country-KGZ">
+            Kyrgyzstan
+          </option>
+          <option
+            label="Lao People's Democratic R. Of"
+            value="string:country-LAO"
+          >
+            Lao People's Democratic R. Of
+          </option>
+          <option label="Latvia" value="string:country-LVA">Latvia</option>
+          <option label="Lebanon" value="string:country-LBN">Lebanon</option>
+          <option label="Lesotho" value="string:country-LSO">Lesotho</option>
+          <option label="Liberia" value="string:country-LBR">Liberia</option>
+          <option label="Libyan Arab Jamahiriya" value="string:country-LBY">
+            Libyan Arab Jamahiriya
+          </option>
+          <option label="Liechtenstein" value="string:country-LIE">
+            Liechtenstein
+          </option>
+          <option
+            label="Liechtenstein - Inact use LIE"
+            value="string:country-LCT"
+          >
+            Liechtenstein - Inact use LIE
+          </option>
+          <option label="Lithuania" value="string:country-LTU">
+            Lithuania
+          </option>
+          <option label="Luxembourg" value="string:country-LUX">
+            Luxembourg
+          </option>
+          <option label="Macau" value="string:country-MAC">Macau</option>
+          <option label="Madagascar" value="string:country-MDG">
+            Madagascar
+          </option>
+          <option label="Malawi" value="string:country-MWI">Malawi</option>
+          <option label="Malaysia" value="string:country-MYS">Malaysia</option>
+          <option label="Maldives" value="string:country-MDV">Maldives</option>
+          <option label="Mali" value="string:country-MLI">Mali</option>
+          <option label="Malta" value="string:country-MLT">Malta</option>
+          <option label="Marshall Islands" value="string:country-MHL">
+            Marshall Islands
+          </option>
+          <option label="Martinique" value="string:country-MTQ">
+            Martinique
+          </option>
+          <option label="Mauritania" value="string:country-MRT">
+            Mauritania
+          </option>
+          <option label="Mauritius" value="string:country-MUS">
+            Mauritius
+          </option>
+          <option label="Mayotte" value="string:country-XYO">Mayotte</option>
+          <option label="Metropolitan France" value="string:country-FX">
+            Metropolitan France
+          </option>
+          <option label="Mexico" value="string:country-MEX">Mexico</option>
+          <option label="Micronesia" value="string:country-FSM">
+            Micronesia
+          </option>
+          <option label="Monaco" value="string:country-MCO">Monaco</option>
+          <option label="Mongolia" value="string:country-MNG">Mongolia</option>
+          <option label="Montenegro" value="string:country-MNE">
+            Montenegro
+          </option>
+          <option label="Montserrat" value="string:country-MSR">
+            Montserrat
+          </option>
+          <option label="Morocco" value="string:country-MAR">Morocco</option>
+          <option label="Mozambique" value="string:country-MOZ">
+            Mozambique
+          </option>
+          <option label="Myanmar" value="string:country-MMR">Myanmar</option>
+          <option label="Namibia" value="string:country-NAM">Namibia</option>
+          <option label="Nauru" value="string:country-NRU">Nauru</option>
+          <option label="Nepal" value="string:country-NPL">Nepal</option>
+          <option label="Netherlands" value="string:country-NLD">
+            Netherlands
+          </option>
+          <option label="Netherlands Antilles" value="string:country-ANT">
+            Netherlands Antilles
+          </option>
+          <option label="New Caledonia" value="string:country-NCL">
+            New Caledonia
+          </option>
+          <option label="New Zealand" value="string:country-NZL">
+            New Zealand
+          </option>
+          <option label="Nicaragua" value="string:country-NIC">
+            Nicaragua
+          </option>
+          <option label="Niger" value="string:country-NER">Niger</option>
+          <option label="Nigeria" value="string:country-NGA">Nigeria</option>
+          <option label="Niue" value="string:country-NIU">Niue</option>
+          <option label="Norfolk Island" value="string:country-NFK">
+            Norfolk Island
+          </option>
+          <option label="Northern Mariana Islands" value="string:country-MNP">
+            Northern Mariana Islands
+          </option>
+          <option label="Norway" value="string:country-NOR">Norway</option>
+          <option label="Oman" value="string:country-OMN">Oman</option>
+          <option label="Pakistan" value="string:country-PAK">Pakistan</option>
+          <option label="Palau" value="string:country-PLW">Palau</option>
+          <option label="Palestinian Territory" value="string:country-PSE">
+            Palestinian Territory
+          </option>
+          <option label="Panama" value="string:country-PAN">Panama</option>
+          <option label="Papua New Guinea" value="string:country-PNG">
+            Papua New Guinea
+          </option>
+          <option label="Paraguay" value="string:country-PRY">Paraguay</option>
+          <option label="Peru" value="string:country-PER">Peru</option>
+          <option label="Philippines" value="string:country-PHL">
+            Philippines
+          </option>
+          <option label="Pitcairn" value="string:country-PCN">Pitcairn</option>
+          <option label="Poland" value="string:country-POL">Poland</option>
+          <option label="Portugal" value="string:country-PRT">Portugal</option>
+          <option label="Puerto Rico" value="string:country-PRI">
+            Puerto Rico
+          </option>
+          <option label="Qatar" value="string:country-QAT">Qatar</option>
+          <option label="Republic of Georgia" value="string:country-GEO">
+            Republic of Georgia
+          </option>
+          <option label="Republic of Kosovo" value="string:country-ROK">
+            Republic of Kosovo
+          </option>
+          <option label="Republic of Macedonia" value="string:country-MKD">
+            Republic of Macedonia
+          </option>
+          <option label="Republic of Moldova" value="string:country-MDA">
+            Republic of Moldova
+          </option>
+          <option label="Republic of Serbia" value="string:country-SRB">
+            Republic of Serbia
+          </option>
+          <option label="Reunion" value="string:country-REU">Reunion</option>
+          <option label="Romania" value="string:country-ROM">Romania</option>
+          <option label="Russia" value="string:country-RUS">Russia</option>
+          <option label="Rwanda" value="string:country-RWA">Rwanda</option>
+          <option
+            label="S Georgia &amp; The S Sandwich Isl"
+            value="string:country-SGS"
+          >
+            S Georgia &amp; The S Sandwich Isl
+          </option>
+          <option label="Saint Barthélemy" value="string:country-BLM">
+            Saint Barthélemy
+          </option>
+          <option label="Saint Kitts And Nevis" value="string:country-KNA">
+            Saint Kitts And Nevis
+          </option>
+          <option label="Saint Lucia" value="string:country-LCA">
+            Saint Lucia
+          </option>
+          <option label="Saint Martin" value="string:country-MAF">
+            Saint Martin
+          </option>
+          <option
+            label="Saint Vincent &amp; The Grenadines"
+            value="string:country-VCT"
+          >
+            Saint Vincent &amp; The Grenadines
+          </option>
+          <option label="San Marino" value="string:country-SMR">
+            San Marino
+          </option>
+          <option label="Sao Tome And Principe" value="string:country-STP">
+            Sao Tome And Principe
+          </option>
+          <option label="Saudi Arabia" value="string:country-SAU">
+            Saudi Arabia
+          </option>
+          <option label="Scotland" value="string:country-SCO">Scotland</option>
+          <option label="Senegal" value="string:country-SEN">Senegal</option>
+          <option label="Serbia" value="string:country-SRB">Serbia</option>
+          <option label="Seychelles" value="string:country-SYC">
+            Seychelles
+          </option>
+          <option label="Sierra Leone" value="string:country-SLE">
+            Sierra Leone
+          </option>
+          <option label="Singapore" value="string:country-SGP">
+            Singapore
+          </option>
+          <option label="Slovakia" value="string:country-SVK">Slovakia</option>
+          <option label="Slovenia" value="string:country-SVN">Slovenia</option>
+          <option label="Solomon Islands" value="string:country-SLB">
+            Solomon Islands
+          </option>
+          <option label="Somalia" value="string:country-SOM">Somalia</option>
+          <option label="South Africa" value="string:country-ZAF">
+            South Africa
+          </option>
+          <option label="South Sudan" value="string:country-SSD">
+            South Sudan
+          </option>
+          <option label="Spain" value="string:country-ESP">Spain</option>
+          <option label="Sri Lanka" value="string:country-LKA">
+            Sri Lanka
+          </option>
+          <option label="St. Helena" value="string:country-SHN">
+            St. Helena
+          </option>
+          <option label="St. Pierre And Miquelon" value="string:country-SPM">
+            St. Pierre And Miquelon
+          </option>
+          <option label="Sudan" value="string:country-SDN">Sudan</option>
+          <option label="Suriname" value="string:country-SUR">Suriname</option>
+          <option
+            label="Svalbard And Jan Mayen Islands"
+            value="string:country-SJM"
+          >
+            Svalbard And Jan Mayen Islands
+          </option>
+          <option label="Swaziland" value="string:country-SWZ">
+            Swaziland
+          </option>
+          <option label="Sweden" value="string:country-SWE">Sweden</option>
+          <option label="Switzerland" value="string:country-CHE">
+            Switzerland
+          </option>
+          <option label="Syrian Arab Republic" value="string:country-SYR">
+            Syrian Arab Republic
+          </option>
+          <option label="Taiwan" value="string:country-TWN">Taiwan</option>
+          <option label="Tajikistan" value="string:country-TJK">
+            Tajikistan
+          </option>
+          <option label="Thailand" value="string:country-THA">Thailand</option>
+          <option label="Togo" value="string:country-TGO">Togo</option>
+          <option label="Tokelau" value="string:country-TKL">Tokelau</option>
+          <option label="Tonga" value="string:country-TON">Tonga</option>
+          <option label="Trinidad And Tobago" value="string:country-TTO">
+            Trinidad And Tobago
+          </option>
+          <option label="Tunisia" value="string:country-TUN">Tunisia</option>
+          <option label="Turkey" value="string:country-TUR">Turkey</option>
+          <option label="Turkmenistan" value="string:country-TKM">
+            Turkmenistan
+          </option>
+          <option label="Turks And Caicos Islands" value="string:country-TCA">
+            Turks And Caicos Islands
+          </option>
+          <option label="Tuvalu" value="string:country-TUV">Tuvalu</option>
+          <option label="Uganda" value="string:country-UGA">Uganda</option>
+          <option label="Ukraine" value="string:country-UKR">Ukraine</option>
+          <option label="United Arab Emirates" value="string:country-ARE">
+            United Arab Emirates
+          </option>
+          <option label="United Kingdom" value="string:country-GBR">
+            United Kingdom
+          </option>
+          <option
+            label="United Republic Of Tanzania"
+            value="string:country-TZA"
+          >
+            United Republic Of Tanzania
+          </option>
+          <option label="United States" value="string:country-USA">
+            United States
+          </option>
+          <option
+            label="United States Minor Outlying"
+            value="string:country-UMI"
+          >
+            United States Minor Outlying
+          </option>
+          <option label="Uruguay" value="string:country-URY">Uruguay</option>
+          <option label="Uzbekistan" value="string:country-UZB">
+            Uzbekistan
+          </option>
+          <option label="Vanuatu" value="string:country-VUT">Vanuatu</option>
+          <option
+            label="Vatican City State (Holy See)"
+            value="string:country-VAT"
+          >
+            Vatican City State (Holy See)
+          </option>
+          <option label="Venezuela" value="string:country-VEN">
+            Venezuela
+          </option>
+          <option label="Vietnam" value="string:country-VNM">Vietnam</option>
+          <option label="Virgin Islands (British)" value="string:country-VGB">
+            Virgin Islands (British)
+          </option>
+          <option label="Virgin Islands (U.S.)" value="string:country-VIR">
+            Virgin Islands (U.S.)
+          </option>
+          <option label="Wallis And Futuna Islands" value="string:country-WLF">
+            Wallis And Futuna Islands
+          </option>
+          <option label="Western Sahara" value="string:country-ESH">
+            Western Sahara
+          </option>
+          <option label="Yemen" value="string:country-YEM">Yemen</option>
+          <option label="Yugoslavia" value="string:country-YUG">
+            Yugoslavia
+          </option>
+          <option label="Zambia" value="string:country-ZMB">Zambia</option>
+          <option value="Zimbabwe">Zimbabwe</option>
+        </select>
+
+        <label for="state">State/City Of Residence</label>
+        <input
+          type="text"
+          name="state"
+          id="state"
+          placeholder="Enter your state of residence"
+          required
+        />
+
+        <br />
+        <hr />
+        <label for="Employment">Employment Status</label>
+        <select name="Employment" id="Employment" required>
+          <option disabled selected value="select employment status">
+            Select employment status
+          </option>
+          <option value="employed">Employed</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="self-employed">Self-employed</option>
+        </select>
+
+        <label for="number">Phone Number</label>
+        <input
+          type="number"
+          name="number"
+          id="number"
+          placeholder="09012144154"
+          required
+        />
+        <br />
+        <hr />
+        <label for="School">Choose School</label>
+        <select name="school" id="school" required>
+          <option value="select school" disabled selected>Select school</option>
+          <option value="School of engineering">School of engineering</option>
+          <option value="School of Data">School of Data</option>
+          <option value="School of Design">School of Design</option>
+        </select>
+
+        <label for="Course">Choose Course of Study</label>
+        <select name="school" id="school" required>
+          <option value="select course" disabled selected>Select course</option>
+          <option value="Frontend engineering">Frontend engineering</option>
+          <option value="Backend engineering">Backend engineering</option>
+          <option value="Data Analysis">Data Analysis</option>
+          <option value="Data Science">Data Science</option>
+          <option value="UI / UX">UI / UX</option>
+        </select>
+
+        <br />
+        <hr />
+        <label for="Source">How did you hear about us?</label>
+        <select name="Source" id="Source" required>
+          <option value="Select Channel" disabled selected>
+            Select Channel
+          </option>
+          <option value="Twitter">Twitter</option>
+          <option value="Facebook">Facebook</option>
+          <option value="LinkedIn">LinkedIn</option>
+          <option value="Youtube">Youtube</option>
+          <option value="Friend">Friend</option>
+          <option value="Whatsapp">Whatsapp</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Bill Board">Bill Board</option>
+        </select>
+
+        <label for="discount">Scholarship/Discount Code (optional)</label>
+        <input
+          type="text"
+          name="discount"
+          id="discount"
+          placeholder="Scholarship or Student ID"
+        />
+
+        <br />
+        <hr />
+        <p>
+          By clicking continue, I agree to <a href="#">Terms Of Use</a>and
+          acknowledge that I have read the <a href="#">Privacy Policy</a>
+        </p>
+        <button type="submit">Submit</button>
+        <p><strong>Already have an account?</strong><a href="#">Sign In</a></p>
+      </form>
+    </main>
+  </body>
+</html>
